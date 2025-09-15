@@ -12,6 +12,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
+     
     <div className="min-h-screen">
       <Toaster position="top-right" />
       <Navbar />
@@ -24,6 +25,7 @@ function App() {
       <Contact />
       <Footer />
     </div>
+    
   );
 }
 

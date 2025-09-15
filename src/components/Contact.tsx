@@ -66,12 +66,12 @@ const Contact = () => {
               <div className="space-y-6">
                 <div className="flex items-center space-x-4">
                   <Phone className="w-6 h-6 text-blue-600" />
-                  <span className="text-gray-600">+33 1 23 45 67 89</span>
+                  <span className="text-gray-600">+33 1 23 OO O1 03</span>
                 </div>
                 
                 <div className="flex items-center space-x-4">
                   <Mail className="w-6 h-6 text-blue-600" />
-                  <span className="text-gray-600">contact@odysseyelite.com</span>
+                  <span className="text-gray-600">altydia@gmail.com</span>
                 </div>
                 
                 <div className="flex items-center space-x-4">

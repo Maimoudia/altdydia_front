@@ -30,7 +30,7 @@ const Navbar = () => {
             transition={{ duration: 0.5 }}
           >
             <Plane className="h-8 w-8 text-blue-600" />
-            <span className="ml-2 text-xl font-bold text-gray-800">Odyssey Elite</span>
+            <span className="ml-2 text-xl font-bold text-gray-800">Altydia</span>
           </motion.div>
 
           {/* Navigation desktop */}
@@ -85,5 +85,4 @@ const Navbar = () => {
     </nav>
   );
 };
-
 export default Navbar;
