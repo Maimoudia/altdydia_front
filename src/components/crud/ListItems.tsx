@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import UpdateForm from "./UpdateForm";
+import UpdateForm from "../voyages/UpdateVoyageForm";
 import DeleteForm from "../crud/DeleteForm";
 
 const ListItems = () => {
@@ -12,7 +12,7 @@ const ListItems = () => {
   }, []);
 
   const fetchItems = async () => {
-    const response = await axios.get("http://localhost:5000/items");
+    const response = await axios.get("http://localhost:3000/items");
     setItems(response.data);
   };
 

@@ -76,6 +76,7 @@ const Gallery = () => {
                 <h3 className="text-white text-2xl font-bold">{image.title}</h3>
               </div>
             </motion.div>
+            
           ))}
         </div>
       </div>

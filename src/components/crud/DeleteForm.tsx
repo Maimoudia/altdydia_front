@@ -9,7 +9,7 @@ const DeleteForm = ({ itemId, onItemDeleted }) => {
     if (!window.confirm("Voulez-vous vraiment supprimer cet élément ?")) return;
 
     try {
-      await axios.delete(`http://localhost:5000/items/${itemId}`);
+      await axios.delete(`http://localhost:3000/items/${itemId}`);
       setMessage("Item supprimé !");
       onItemDeleted(itemId);
     } catch (error) {

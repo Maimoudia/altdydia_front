@@ -1,7 +1,6 @@
 import React from 'react';
 import { Toaster } from 'react-hot-toast';
 import Navbar from './components/Navbar';
-import Hero from './components/Hero';
 import Destinations from './components/Destinations';
 import Services from './components/Services';
 import Gallery from './components/Gallery';
@@ -9,6 +8,8 @@ import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 import Booking from './components/Booking';
 import Footer from './components/Footer';
+import Hero from './components/Hero';
+
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Booking />
       <Contact />
       <Footer />
+      
     </div>
     
   );
